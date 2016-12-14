@@ -1,0 +1,54 @@
+body {
+	font-family: 'Berkshire Swash', cursive;
+	font-family: 'Comfortaa', cursive;
+	color: #000;
+	font-size: 1.25em;
+	background: silver;
+}
+.module {
+	position: absolute;
+	bottom: 1em;
+	right: 0;
+	left: 0;
+	margin: auto;
+	max-height: 400px;
+	max-width: 60%;
+	text-align: center;
+}
+
+.module h1, .brand h1 {
+	font-size: 5em;
+	text-shadow: 0.1em 0.1em 0.2em #999;
+	text-align: center;
+}
+
+.module h1 {
+	font-size: 2.5em;
+}
+
+.module .contactModule {
+	letter-spacing: 0.1em;
+	font-size: 1.25em;
+	text-shadow: 0.1em 0.1em 0.2em #999;	
+}
+
+.module .contactModule a {
+	color: inherit;
+}
+
+
+@media all and (max-width: 1000px) {
+	body {
+		font-size: 1em;
+	}
+
+	.module {
+		max-width: 100%;
+	}
+}
+
+@media all and (max-width: 600px) {
+	body {
+		font-size: 0.8em;
+	}
+}
